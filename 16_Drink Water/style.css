@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+
+:root{
+  --border-color: #144fc6;
+  --fill-color: #6ab3f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #3494e4;
+  color:white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px; 
+}
+
+
+h1 {
+  margin:10px 0 0;
+}
+
+h3{
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.cup {
+  background-color: white;
+  border: 4px solid var(--border-color);
+  color: var(--border-color);
+  border-radius: 0 0 40px 40px;
+  height: 330px;
+  width: 150px;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cup.cup-small{
+  width: 50px;
+  height: 95px;
+  border-radius: 0 0 15px 15px;
+  background-color: rgba(255,255,255,0.9);
+  cursor: pointer;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  transition: 0.3s ease;
+}
+
+.cup.cup-small.full{
+  background-color: var(--fill-color);
+  color: white;
+}
+
+.cups{
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+}
+
+.remained {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  transition: 0.3s ease;
+}
+.remained span{
+  font-size: 25px;
+  font-weight: bold;
+}
+.remained small{
+  font-size: 12px;
+
+}
+
+.percentage {
+  background-color: var(--fill-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 0;
+  transition: 0.3s ease;
+}
+
+.text{
+  text-align: center;
+  margin: 0 0 5px;
+}
+
+
+
+/* 
+my code 
+@import url("https://fonts.googleapis.com/css?family=Roboto@1&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0099ff;
+  color:white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0; 
+}
+
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+
+.glass {
+  width :50px;
+  height: 100px;
+  font-size: 0.8rem;
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+  text-align: center;
+  color: #00adff;
+  border: solid 2px #0044ff;
+  align-content: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.glass.active{
+  color: white;
+  background-color: #00aaff;
+}
+
+.glass.target{
+  width : 150px;
+  height: 300px;
+  border-radius: 0 0 20px 20px;
+  border: solid 3px #0044ff;
+  color : #0044ff;
+}
+ */
