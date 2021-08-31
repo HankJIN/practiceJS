@@ -64,7 +64,7 @@ const createHeart = (e) =>{
     const x = e.clientX
     const y = e.clientY
 
-    //fix bug
+    //fix
     const leftOffset = loveMe.offsetLeft
     const topOffset = loveMe.offsetTop
 
